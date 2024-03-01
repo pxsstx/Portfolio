@@ -1,6 +1,6 @@
 import ContentContainer from "../../components/ContentContainer";
 import { data as aboutData } from "../../contents/about";
-import { data as certificationData } from "../../contents/certification";
+// import { data as certificationData } from "../../contents/certification";
 import { data as projectData } from "../../contents/project";
 import About from "../About";
 
@@ -20,13 +20,13 @@ const RightSection = ({ onInitial, currectSection, scrollId }) => {
                 data={projectData}
                 stateWatchOnHover={currectSection}
             />
-            <ContentContainer
+            {/* <ContentContainer
                 onInitial={onInitial}
                 title="Certification"
                 data={certificationData}
                 stateWatchOnHover={currectSection}
                 pictureClassName="w-4/6 bg-primaryContent"
-            />
+            /> */}
         </div>
     )
 }

@@ -4,7 +4,7 @@ import pic2048game from "../asset/2048-Game.png";
 import picCalculator from "../asset/calculator.png";
 import picShowPokedex from "../asset/ShowPokedex.png";
 import picShowPort from "../asset/ShowPort.png";
-
+import picSpotifyClone from"../asset/SpotifyClone.png"
 
 
 
@@ -52,7 +52,7 @@ export const data = [
             'A fascinating rendition of the popular "2048 game", ingeniously crafted using a combination of HTML, CSS, and JavaScript, showcases the remarkable synergy between web development technologies and game design, offering an engaging and interactive user experience'
         ],
         skills: [
-            ["HTML", "CSS","JavaScript"],
+            ["HTML", "CSS", "JavaScript"],
         ],
         picture: pic2048game,
     },
@@ -64,11 +64,25 @@ export const data = [
         title: "Calculator",
         descriptions: [
             "Certainly, creating a calculator that emulates the aesthetic and functionality of the iconic iPhone calculator app through a meticulously crafted combination of HTML, CSS, and JavaScript entails a comprehensive undertaking.",
-            "which will involve meticulously designing the user interface, ensuring a seamless user experience, and integrating the necessary mathematical operations, all while paying close attention to the nuanced design elements, such as the button styles, color schemes, layout, and responsive behavior, in order to closely mimic the iPhone calculator's signature look and feel."
         ],
         skills: [
-            ["HTML", "CSS","JavaScript"],
+            ["HTML", "CSS", "JavaScript"],
         ],
         picture: picCalculator,
+    },
+    {
+        date: "Feb 2024",
+        materials: [
+            { type: faCode, link: "https://github.com/pxsstx/spotify_clone" },
+        ],
+        title: "Clone Spotify",
+        descriptions: [
+            "Build a Spotify-inspired website with React and Tailwind CSS. Create an engaging platform featuring user authentication, responsive design, playlist management, and seamless audio playback for an immersive music experience.",
+            "Made only in Front End. Haven't written the Back End yet or continued with the API. Planning to integrate server-side functionalities for a complete end-to-end solution."
+        ],
+        skills: [
+            ["React", "Tailwind"],
+        ],
+        picture: picSpotifyClone,
     }
 ];
