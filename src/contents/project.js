@@ -4,7 +4,8 @@ import pic2048game from "../asset/2048-Game.png";
 import picCalculator from "../asset/calculator.png";
 import picShowPokedex from "../asset/ShowPokedex.png";
 import picShowPort from "../asset/ShowPort.png";
-import picSpotifyClone from"../asset/SpotifyClone.png"
+import picSpotifyClone from "../asset/SpotifyClone.png"
+import picWeather from "../asset/weather.png"
 
 
 
@@ -84,5 +85,21 @@ export const data = [
             ["React", "Tailwind"],
         ],
         picture: picSpotifyClone,
+    },
+    {
+        date: "Mar 2024",
+        link: "https://showweatherapp.vercel.app/",
+        materials: [
+            { type: faCode, link: "https://github.com/pxsstx/weather-app" },
+            { type: faBook, link: "https://openweathermap.org/" },
+        ],
+        title: "Weather App",
+        descriptions: [
+            "Built a weather app with Next.js and Tailwind CSS, utilizing the OpenWeatherMap API for live weather updates. Seamlessly combines design with functionality for an intuitive user experience."
+        ],
+        skills: [
+            ["Next.js", "Tailwind"],
+        ],
+        picture: picWeather,
     }
 ];
