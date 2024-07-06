@@ -4,8 +4,9 @@ import pic2048game from "../asset/2048-Game.png";
 import picCalculator from "../asset/calculator.png";
 import picShowPokedex from "../asset/ShowPokedex.png";
 import picShowPort from "../asset/ShowPort.png";
+import picShowTodoList from "../asset/ShowTodoList.png";
 import picSpotifyClone from "../asset/SpotifyClone.png"
-import picWeather from "../asset/weather.png"
+import picWeather from "../asset/weather.png";
 
 
 
@@ -101,5 +102,20 @@ export const data = [
             ["Next.js", "Tailwind"],
         ],
         picture: picWeather,
+    },
+    {
+        date: "May 2024",
+        link: "https://showtodolistappx.vercel.app/",
+        materials: [
+            { type: faCode, link: "https://github.com/pxsstx/todolist-app" },
+        ],
+        title: "Todolist App",
+        descriptions: [
+            "A sleek and intuitive To-Do List app website, designed for effortless task management and productivity, offering customizable lists, deadlines, reminders, and seamless synchronization across all your devices."
+        ],
+        skills: [
+            ["Next.js", "Tailwind"],
+        ],
+        picture: picShowTodoList,
     }
 ];
